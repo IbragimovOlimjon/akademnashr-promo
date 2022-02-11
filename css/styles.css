@@ -61,7 +61,7 @@
 }
 .futures-iteam {
     width: 340px;
-
+    
 }
 .icon {
     width: 100px;
@@ -109,7 +109,12 @@
 .icon-net {
     width: 24px;
 }
-
+.site-footer-bottom {
+    width: 1100px;
+}
+.links-list {
+    width: 224px;
+}
 .site-footer-link {
     color: #252420;
     width: 224px;
