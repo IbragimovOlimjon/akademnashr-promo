@@ -1,41 +1,26 @@
+body {
+    font-family: 'Roboto', "Arial", sans-serif;
+
+}
 .site-header {
     background-color: #fff;
-    box-shadow: 0px 4px 10px;
-    left: 0px;
-    top: 5px;
-    display: flex;
-    flex-direction: column;
-    padding: 16px 170px; box-shadow: 0px 4px 10px;
-   
 }
-
 .sitenav-list {
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    position: static;
-    list-style: none;
-    display: flex;
-    width: 610px;
-    font: none;
-    order: 1;
-    flex-grow: 0;
-    
+list-style: none;
+
+
 }
 
-.sitenav-item {
-    
-}
 
 .sitenav-link {
+    font-weight: 500;
     font-size: 13px;
     line-height: 15px;
-    font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: normal 1px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #a18100;
-    
+    color: #000;
+    font-family: 'Roboto Condensed',"Arial", sans-serif;
 }
 .main-link {
     font-size: 13px;
@@ -43,135 +28,117 @@
     background-color: #ff7500;
     color: #fff;
     text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
-    position: static;
-    width: 155px;
-    flex: none;
-    order: 4;
-    flex-grow: 0;
-    margin: 0px 32px;
-    border-radius: 4px;
-    left: 455px;
-    top: 0;
-    display: flex;
+    font-family: 'Roboto Condensed',"Arial", sans-serif;
 }
 .hero {
     background-color: #252420;
-    color: #fff;
-
+    color:#fff;
 }
 .hero-content {
-    width: 388px;
-    left: 170px;
-    top: 177px;
+    width: 390px;
 }
-.line {
-    width: 80px;
-    height: 3px;
-    background-color: #ff7500;
+.orange-line {
+ width: 80px;
+ height: 3px;   
+ background-color: #ff7500;
+}
+.hero-heading {
+  font-size: 40px;
+  line-height: 1.2;  
+  letter-spacing: 0.5px;
+  font-family: 'Roboto', "Arial", sans-serif;
+  font-family: 'Roboto Condensed',"Arial", sans-serif;
+
 }
 .hero-img {
     width: 510px;
-}
-.hero-heading {
-    width: 339px;
-    /* height: 96px; */
-    font-style: normal;
-    font-size: 40px;
-    line-height: 120%;
-    letter-spacing: 0.5px;
+    height: 510px;
 }
 .hero-text {
-    width: 387px;
-    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.5px;
 }
-.hero-line-two {
-    background-color: #ff7500;
-    width: 80px;
-}
-  
-.header-two {
-    color: #000000;
+.features-heading {
     width: 435px;
     font-size: 72px;
     line-height: 1.2;
     letter-spacing: 0.5px;
+    font-family: 'Roboto Condensed',"Arial", sans-serif;
 }
-.futures-iteam {
+.feature {
     width: 340px;
-    
 }
-.icon {
+.feature-icon-wrapper {
     width: 100px;
     height: 100px;
     background-color: rgba(255, 117, 0, 0.2);
 }
 .feature-title {
-    width: 210px;
     font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    font-family: 'Roboto Condensed',"Arial", sans-serif;
 }
 .feature-info {
-    width: 314px;
-    line-height: 150%;
-}
-.sale-img {
-    width: 440px;
-    height: 440px;
-}
-.sale-bg {
-    width: 1100px;
-    background-color: #252420;
-}
-.sale-content {
-    width: 440px;
-}
-.header-three {
-    color: #fff;
-    width: 373px;
-    font-size: 40px;
-}
-.info-two {
-    width: 440px;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+.promo {
+    background-color: #252420;
     color: #fff;
 }
-.text-color {
+.promo-content {
+    width: 440px;
+}
+.promo-heading {
+font-size: 40px;
+line-height: 48px;
+font-family: 'Roboto Condensed',"Arial", sans-serif;
+}
+.promo-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.promo-highlight {
     color: #ff7500;
 }
-.footer-bg {
+.promo-img {
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+}
+.site-footer {
     background-color: #f8f8f8;
-    width: 1440px;
-    
 }
-
-.icon-net {
-    width: 24px;
-}
-.site-footer-bottom {
-    width: 1100px;
-}
-.site-footer{
+.site-footer ul {
     list-style: none;
-    text-decoration: none;
-    color: #252420;
+}
+.sire-footer-divider {
+    height: 2px;
+background-color: rgba(37, 36, 32, 0.5);
+}
+.site-footer-link-list a {
     font-size: 16px;
     line-height: 19px;
+    text-decoration: none;
+    color: #252420;
+}
+.site-footer-link-list {
+    width: 224px;
 }
 
-.site-footer-link {
-    color: #252420;
-    width: 224px;
-    font-size: 16px;
-    text-decoration: none;
-    
-}
+
+
+
+
+
+
+
+
+
+
 
 
 
