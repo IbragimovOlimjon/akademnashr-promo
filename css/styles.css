@@ -16,15 +16,15 @@
     position: static;
     list-style: none;
     display: flex;
-    padding: 0px;
-    position: static;
     width: 610px;
-    left: 490px;
-    top: 10.09px;
     font: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 382px;
+    
+}
+
+.sitenav-item {
+    
 }
 
 .sitenav-link {
@@ -34,7 +34,7 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #252420;
+    color: #a18100;
     
 }
 .main-link {
@@ -91,14 +91,12 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.5px;
-
+}
 .hero-line-two {
     background-color: #ff7500;
     width: 80px;
 }
   
-
-}
 .header-two {
     color: #000000;
     width: 435px;
