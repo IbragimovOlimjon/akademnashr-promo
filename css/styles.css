@@ -15,6 +15,9 @@ body {
 .logo-akademnashr {
     transition: opacity 0.4s ease;
 }
+.logo-akademnashr img {
+    display: block;
+}
 .logo-akademnashr:hover {
     opacity: 0.8;
 }
