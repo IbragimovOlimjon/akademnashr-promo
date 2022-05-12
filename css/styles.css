@@ -356,6 +356,9 @@ img {
     color: var(--color);
 }
 
+.promo__text-orange {
+    color: var(--link-bg);
+}
 
 .promo__link {
     margin-top: 12px;
