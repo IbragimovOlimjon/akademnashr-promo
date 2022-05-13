@@ -4,6 +4,7 @@
     --black:#000;
     --link-bg:#ff7500;
     --footer-link-bg:#252420;
+    --footer-bg:#f8f8f8;
     --font-condensed:'Roboto Condensed', 'Arial', sans-serif;
     --global-font:'Roboto', 'Arial', sans-serif;
 }
@@ -265,7 +266,7 @@ img {
 /* FEATURES */
 .features {
     padding-top: 210px;
-    padding-bottom: 122px;
+    padding-bottom: 210px;
 }
 
 .features__line {
@@ -328,7 +329,7 @@ img {
 .promo {
     position: relative;
     padding-top: 122px;
-    padding-bottom: 108px;
+    padding-bottom: 160px;
 }
 
 .promo__info {
@@ -387,8 +388,9 @@ img {
 
 /* SITE FOOTER */
 .site-footer {
-    padding-top: 108px;
+    padding-top: 56px;
     padding-bottom: 56px;
+    background-color: var(--footer-bg);
 }
 
 .site-footer__top {
