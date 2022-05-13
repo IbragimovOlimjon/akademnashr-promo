@@ -430,7 +430,7 @@ img {
 }
 
 .site-footer__socials-link {
-    display: block;
+    display: flex;
     color: var(--black);
     transition: 0.2s ease;
 }
