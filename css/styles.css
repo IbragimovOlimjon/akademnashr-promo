@@ -199,6 +199,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 .hero__content {
@@ -259,7 +260,10 @@ img {
     object-fit: cover;
     filter: drop-shadow(24px 24px 0px rgba(255, 117, 0, 0.6));
     border-radius: 8px;
-    margin-bottom: -150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
 }
 
 
